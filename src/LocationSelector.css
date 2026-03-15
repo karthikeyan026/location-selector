@@ -1,0 +1,41 @@
+.container {
+  width: min(420px, calc(100vw - 32px));
+  margin: 80px auto;
+  padding: 32px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 18px 45px rgba(17, 41, 72, 0.12);
+}
+
+.container h1 {
+  margin: 0 0 24px;
+  font-size: 1.75rem;
+  color: #16324f;
+}
+
+.field {
+  display: block;
+  margin-bottom: 16px;
+  color: #24486c;
+  font-weight: 600;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.field select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #c7d6e5;
+  border-radius: 10px;
+  background: #f8fbff;
+  color: #16324f;
+  font-size: 1rem;
+}
+
+.field select:focus {
+  outline: 2px solid #7ea8d9;
+  outline-offset: 1px;
+}
